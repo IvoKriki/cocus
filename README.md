@@ -23,9 +23,9 @@ This project is a Spring Boot application that generates word squares from a giv
 - **Request Parameter**: `letters` (string) - A string containing random letters.
 - **Response**: A JSON array of words forming a valid word square, or a message indicating no valid square was found.
 
+### I used this website to generate the random letters: https://capitalizemytitle.com/random-letter-generator/
+
 **Example Request:**
 
 ```http
 POST http://localhost:8080/api/word-square?letters=RESIHERREAETBUNTRSNAEDMBE
-
-### Used this website to generate the random letters: https://capitalizemytitle.com/random-letter-generator/
